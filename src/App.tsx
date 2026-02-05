@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import AnimatedRoutes from "./Routes/AnimatedRoutes"
+import AnimatedRoutes from "./routes/AnimatedRoutes"
 import { LanguageProvider } from "./providers/LanguageProvider"
 import './i18n'
 
