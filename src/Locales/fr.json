@@ -3,5 +3,23 @@
     "projects": "Projets",
     "course": "Parcours",
     "skill": "Compétences",
-    "contact": "Contact"
+    "contact": "Contact",
+    "hero_presentation": "Étudiant en <strong>3ème année de Bachelor</strong> en alternance à <strong>SupDeVinci (Rennes)</strong>.<br>Je contribue au sein de <strong> CNSI - S&D </strong> au développement d’un <em>Warehouse Management System</em> pour les entrepôts, ainsi qu’à une application distincte pour la gestion des commandes côté fournisseur.",
+    "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Vue.js (Nuxt optionnel)",
+        "React (Vite optionnel)",
+        "Angular",
+        "Laravel",
+        "Symfony",
+        "Node.js",
+        "SQL (MySQL, PostgreSQL, etc.)",
+        "MongoDB",
+        "Go",
+        "C#",
+        "HTML / CSS / PHP",
+        "Sass / TailwindCSS",
+        "Git / GitHub"
+    ]
 }

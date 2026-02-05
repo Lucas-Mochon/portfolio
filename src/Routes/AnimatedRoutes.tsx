@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom"
-import MainLayout from "../Layouts/MainLayout"
+import MainLayout from "../layouts/MainLayout"
 import HomePage from "../Pages/Home"
-import ProjectPage from "../Pages/Projects"
+import ProjectPage from "../Pages/projects/Index"
 
 export default function AnimatedRoutes() {
   const location = useLocation()

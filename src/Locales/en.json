@@ -3,5 +3,23 @@
     "projects": "Projects",
     "course": "Course",
     "skill": "Skills",
-    "contact": "Contact"
+    "contact": "Contact",
+    "hero_presentation": "Student in the <strong>3rd year Bachelor program</strong> in work-study at <strong>SupDeVinci (Rennes)</strong>.<br>I contribute within <strong> CNSI - S&D </strong> to the development of a <em>Warehouse Management System</em> for warehouses, as well as a separate application for supplier order management.",
+    "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Vue.js (Nuxt optional)",
+        "React (Vite optional)",
+        "Angular",
+        "Laravel",
+        "Symfony",
+        "Node.js",
+        "SQL (MySQL, PostgreSQL, etc.)",
+        "MongoDB",
+        "Go",
+        "C#",
+        "HTML / CSS / PHP",
+        "Sass / TailwindCSS",
+        "Git / GitHub"
+    ]
 }
