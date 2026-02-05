@@ -11,7 +11,7 @@ export default function HomePage() {
   const techs = t("technologies", { returnObjects: true }) as string[]
 
   const { translateWithHtml } = useTranslateWithHtml()
-    const [randomStyles] = useState(() =>
+  const [randomStyles] = useState(() =>
     techs.map(() => ({
       rotate: Math.random() * 6 - 3,
       marginTop: Math.random() * 6,

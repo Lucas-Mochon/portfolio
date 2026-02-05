@@ -2,6 +2,7 @@ import { Route, Routes, useLocation } from "react-router-dom"
 import MainLayout from "../layouts/MainLayout"
 import HomePage from "../Pages/Home"
 import ProjectPage from "../Pages/projects/Index"
+import CoursePage from "../Pages/courses/Index"
 
 export default function AnimatedRoutes() {
   const location = useLocation()
@@ -11,6 +12,7 @@ export default function AnimatedRoutes() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/course" element={<CoursePage />} />
       </Route>
     </Routes>
   )

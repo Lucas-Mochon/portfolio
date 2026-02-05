@@ -21,5 +21,56 @@
         "HTML / CSS / PHP",
         "Sass / TailwindCSS",
         "Git / GitHub"
-    ]
+    ],
+    "courses": {
+        "pageTitle": "Mon Parcours",
+        "course1": {
+            "subsection1": {
+            "title": "Bac STI2D - Option SIN",
+            "period": "2021 - 2023",
+            "description": "Découverte des bases de la programmation avec des <strong>cartes Arduino et ESP32</strong>, petits projets Python et initiation au <strong>HTML / CSS</strong>.",
+            "location": "Lycée Jean Guéhenno, Fougères"
+            }
+        },
+        "course2": {
+            "subsection1": {
+            "title": "BTS SIO - Option SLAM",
+            "period": "2023 - 2025",
+            "description": "Apprentissage de <strong>JavaScript, AJAX, PHP, Java, C#, HTML, CSS, Symfony, SQL</strong>. Réalisation de projets Symfony :<ul class=\"list-disc ml-5 mt-2\"><li>Electric Mobility - e-commerce hoverboards, vélos électriques, trottinettes (tout sauf le paiement final)</li><li>Ciel Bijou - e-commerce vente de bijoux</li></ul>",
+            "location": "Lycée Douanier Rousseau, Laval"
+            }
+        },
+        "course3": {
+            "subsection1": {
+            "title": "Stage chez Diluz (4 semaines)",
+            "period": "2024",
+            "description": "Réalisation de 3 pages sur un site métier interne (comptabilité) pour visualiser un maximum d'informations sur les dossiers.  <br/> Technologies : Vue.js / Nuxt / Node.js / Sequelize / PostgreSql",
+            "location": "Chantepie"
+            }
+        },
+        "course4": {
+            "subsection1": {
+            "title": "Stage chez Diluz (8 semaines)",
+            "period": "2025",
+            "description": "Refonte de l'intranet pour le rendre plus interactif et moderniser le design. Participation ensuite au ticketing de l'application interne comptable <strong>Talenz Toaden</strong>. <br/> Technologies : Vue.js / Nuxt / Node.js / Sequelize / PostgreSql",
+            "location": "Chantepie"
+            }
+        },
+        "course5": {
+            "subsection1": {
+            "title": "Bachelor Développement",
+            "period": "2025 - 2026",
+            "description": "Études en alternance axées sur le développement frontend et backend, intégration web, et projets d’entreprise. <br/> Projet en cours : <ul><li>Cyna - e-commerce réalisé en React / Vite / Sequelize / Mysql / Node.js</li></ul>",
+            "location": "SupDeVinci, Chantepie"
+            }
+        },
+        "course6": {
+            "subsection1": {
+            "title": "Alternance - CNSI / S&D",
+            "period": "2025 - 2026",
+            "description": "Contribution au développement d’un <em>Warehouse Management System</em> pour les entrepôts et d’une application côté commandes fournisseur. <br/> Technologies : Laravel / Mysql",
+            "location": "Plessé"
+            }
+        }
+    }
 }

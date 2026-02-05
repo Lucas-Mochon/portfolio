@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next"
 const navItems = [
   { name: "home", path: "/" },
   { name: "projects", path: "/projects" },
-  { name: "course", path: "/about" },
+  { name: "course", path: "/course" },
   { name: "skill", path: "/skills" },
   { name: "contact", path: "/contact" },
 ]
