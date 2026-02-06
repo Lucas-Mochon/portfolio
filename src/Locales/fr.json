@@ -5,6 +5,7 @@
     "skill": "Compétences",
     "contact": "Contact",
     "hero_presentation": "Étudiant en <strong>3ème année de Bachelor</strong> en alternance à <strong>SupDeVinci (Rennes)</strong>.<br>Je contribue au sein de <strong> CNSI - S&D </strong> au développement d'un <em>Warehouse Management System</em> pour les entrepôts, ainsi qu'à une application distincte pour la gestion des commandes côté fournisseur.",
+    "hacker_rank_certification": "HackerRank Certification",
     "technologies": [
         "JavaScript",
         "TypeScript",
@@ -25,6 +26,72 @@
         "Sass / TailwindCSS",
         "Git / GitHub"
     ],
+    "skillPage": {
+        "title": "Compétences",
+        "subtitle": "Découvrez mes compétences techniques, certifications et domaines d'expertise",
+        "technologiesSection": "Technologies",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "mobile": "Mobile",
+        "database": "Base de données",
+        "tools": "Outils",
+        "technicalSkillsSection": "Compétences Techniques",
+        "softSkillsSection": "Soft Skills",
+        "certificationsSection": "🏆 Certifications HackerRank",
+        "certificationsHint": "Cliquez sur une certification pour voir le PDF",
+        "competences": [
+            "Full Stack Development",
+            "Responsive Design",
+            "API Development",
+            "Database Management",
+            "Mobile Development",
+            "Performance Optimization",
+            "Code Quality & Best Practices",
+            "Problem Solving"
+        ],
+        "softSkills": [
+            "Problem Solving",
+            "Debugging & Optimization",
+            "Agile Methodology",
+            "Team Collaboration",
+            "Code Review",
+            "Technical Documentation"
+        ],
+        "certifications": [
+            {
+                "name": "C# Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "JavaScript Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "JavaScript Intermediate",
+                "level": "Intermediate"
+            },
+            {
+                "name": "Node.js Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "Problem Solving Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "SQL Advanced",
+                "level": "Advanced"
+            },
+            {
+                "name": "SQL Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "SQL Intermediate",
+                "level": "Intermediate"
+            }
+        ]
+    },
     "courses": {
         "pageTitle": "Mon Parcours",
         "course1": {

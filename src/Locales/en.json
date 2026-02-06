@@ -4,7 +4,8 @@
     "course": "Journey",
     "skill": "Skills",
     "contact": "Contact",
-    "hero_presentation": "Student in <strong>3rd year Bachelor's degree</strong> in work-study at <strong>SupDeVinci (Rennes)</strong>.<br>I contribute within <strong>CNSI - S&D</strong> to the development of a <em>Warehouse Management System</em> for warehouses, as well as a separate application for managing supplier-side orders.",
+    "hero_presentation": "Student in <strong>3rd year Bachelor's degree</strong> in work-study program at <strong>SupDeVinci (Rennes)</strong>.<br>I contribute within <strong>CNSI - S&D</strong> to the development of a <em>Warehouse Management System</em> for warehouses, as well as a separate application for supplier-side order management.",
+    "hacker_rank_certification": "HackerRank Certification",
     "technologies": [
         "JavaScript",
         "TypeScript",
@@ -25,11 +26,77 @@
         "Sass / TailwindCSS",
         "Git / GitHub"
     ],
+    "skillPage": {
+        "title": "Skills",
+        "subtitle": "Discover my technical skills, certifications and areas of expertise",
+        "technologiesSection": "Technologies",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "mobile": "Mobile",
+        "database": "Database",
+        "tools": "Tools",
+        "technicalSkillsSection": "Technical Skills",
+        "softSkillsSection": "Soft Skills",
+        "certificationsSection": "🏆 HackerRank Certifications",
+        "certificationsHint": "Click on a certification to view the PDF",
+        "competences": [
+            "Full Stack Development",
+            "Responsive Design",
+            "API Development",
+            "Database Management",
+            "Mobile Development",
+            "Performance Optimization",
+            "Code Quality & Best Practices",
+            "Problem Solving"
+        ],
+        "softSkills": [
+            "Problem Solving",
+            "Debugging & Optimization",
+            "Agile Methodology",
+            "Team Collaboration",
+            "Code Review",
+            "Technical Documentation"
+        ],
+        "certifications": [
+            {
+                "name": "C# Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "JavaScript Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "JavaScript Intermediate",
+                "level": "Intermediate"
+            },
+            {
+                "name": "Node.js Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "Problem Solving Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "SQL Advanced",
+                "level": "Advanced"
+            },
+            {
+                "name": "SQL Basic",
+                "level": "Basic"
+            },
+            {
+                "name": "SQL Intermediate",
+                "level": "Intermediate"
+            }
+        ]
+    },
     "courses": {
         "pageTitle": "My Journey",
         "course1": {
             "subsection1": {
-            "title": "Baccalaureate STI2D - SIN Option",
+            "title": "Bac STI2D - Option SIN",
             "period": "2021 - 2023",
             "description": "Discovery of programming fundamentals with <strong>Arduino and ESP32 boards</strong>, small Python projects and introduction to <strong>HTML / CSS</strong>.",
             "location": "Jean Guéhenno High School, Fougères"
@@ -37,9 +104,9 @@
         },
         "course2": {
             "subsection1": {
-            "title": "BTS SIO - SLAM Option",
+            "title": "BTS SIO - Option SLAM",
             "period": "2023 - 2025",
-            "description": "Learning <strong>JavaScript, AJAX, PHP, Java, C#, HTML, CSS, Symfony, SQL</strong>. Completion of Symfony projects :<ul class=\"list-disc ml-5 mt-2\"><li>Electric Mobility - e-commerce for hoverboards, electric bikes, scooters (everything except final payment)</li><li>Ciel Bijou - jewelry sales e-commerce</li></ul>",
+            "description": "Learning <strong>JavaScript, AJAX, PHP, Java, C#, HTML, CSS, Symfony, SQL</strong>. Realization of Symfony projects:<ul class=\"list-disc ml-5 mt-2\"><li>Electric Mobility - e-commerce for hoverboards, electric bikes, scooters (everything except final payment)</li><li>Ciel Bijou - jewelry e-commerce</li></ul>",
             "location": "Douanier Rousseau High School, Laval"
             }
         },
@@ -47,7 +114,7 @@
             "subsection1": {
             "title": "Internship at Diluz (4 weeks)",
             "period": "2024",
-            "description": "Development of 3 pages on an internal business website (accounting) to display maximum information on files.  <br/> Technologies : Vue.js / Nuxt / Node.js / Sequelize / PostgreSQL",
+            "description": "Creation of 3 pages on an internal business site (accounting) to visualize maximum information on files. <br/> Technologies: Vue.js / Nuxt / Node.js / Sequelize / PostgreSQL",
             "location": "Chantepie"
             }
         },
@@ -55,7 +122,7 @@
             "subsection1": {
             "title": "Internship at Diluz (8 weeks)",
             "period": "2025",
-            "description": "Redesign of the intranet to make it more interactive and modernize the design. Subsequently participated in ticketing of the internal accounting application <strong>Talenz Toaden</strong>. <br/> Technologies : Vue.js / Nuxt / Node.js / Sequelize / PostgreSQL",
+            "description": "Redesign of the intranet to make it more interactive and modernize the design. Subsequently participated in ticketing of the internal accounting application <strong>Talenz Toaden</strong>. <br/> Technologies: Vue.js / Nuxt / Node.js / Sequelize / PostgreSQL",
             "location": "Chantepie"
             }
         },
@@ -63,7 +130,7 @@
             "subsection1": {
             "title": "Bachelor's Degree in Development",
             "period": "2025 - 2026",
-            "description": "Work-study education focused on frontend and backend development, web integration, and business projects. <br/> Current project : <ul><li>Cyna - e-commerce built with React / Vite / Sequelize / MySQL / Node.js</li></ul>",
+            "description": "Work-study program focused on frontend and backend development, web integration, and business projects. <br/> Current project: <ul><li>Cyna - e-commerce built with React / Vite / Sequelize / MySQL / Node.js</li></ul>",
             "location": "SupDeVinci, Chantepie"
             }
         },
@@ -71,7 +138,7 @@
             "subsection1": {
             "title": "Work-Study - CNSI / S&D",
             "period": "2025 - 2026",
-            "description": "Contributing to the development of a <em>Warehouse Management System</em> for warehouses and a supplier-side order management application. <br/> Technologies : Laravel / MySQL",
+            "description": "Contributing to the development of a <em>Warehouse Management System</em> for warehouses and a supplier-side order management application. <br/> Technologies: Laravel / MySQL",
             "location": "Plessé"
             }
         }
@@ -82,9 +149,9 @@
             "stack": "Swift · PokéAPI",
             "description": "iOS Pokédex allowing you to view, search and explore details of each Pokémon.",
             "features": [
-                "Complete list of Pokémon",
+                "Complete Pokémon list",
                 "Search by name",
-                "Detail page per Pokémon"
+                "Pokémon detail page"
             ]
         },
         "movie": {
@@ -100,10 +167,10 @@
         "training": {
             "title": "Training App",
             "stack": "Flutter · Node.js · Generative AI",
-            "description": "Muscle-focused training tracking application with role management and intelligent program generation.",
+            "description": "Workout tracking application focused on strength training with role management and intelligent program generation.",
             "features": [
                 "Admin / user roles",
-                "Training tracking & feedback",
+                "Workout tracking & feedback",
                 "Automatic program generation via AI"
             ]
         },
