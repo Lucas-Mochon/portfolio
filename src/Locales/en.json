@@ -184,5 +184,29 @@
                 "Play against other connected players"
             ]
         }
+    },
+    "contactPage": {
+        "title": "Contact",
+        "subtitle": "Do you have a question or an opportunity? Don't hesitate to contact me. I'm always open to new collaborations and interesting projects.",
+        "email": "Email",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "emailValue": "portfolio.lucas.mochon@gmail.com",
+        "githubValue": "Lucas-Mochon",
+        "linkedinValue": "lucas-mochon",
+        "sendMessage": "Send me a message 💬",
+        "nameLabel": "Name",
+        "namePlaceholder": "Your name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "your.email@example.com",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "Message subject",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Your message...",
+        "submitButton": "Send message",
+        "sendingButton": "Sending...",
+        "successMessage": "Message sent successfully!",
+        "errorRequired": "All fields are required",
+        "errorSending": "Error sending message. Please try again."
     }
 }

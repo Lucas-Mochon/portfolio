@@ -5,6 +5,7 @@ import ProjectPage from "../Pages/projects/Index"
 import CoursePage from "../Pages/courses/Index"
 import ProjectDetail from "../Pages/projects/Detail"
 import SkillPage from "../Pages/skills/Index"
+import ContactPage from "../Pages/contact/Index"
 
 export default function AnimatedRoutes() {
   const location = useLocation()
@@ -17,6 +18,7 @@ export default function AnimatedRoutes() {
         <Route path="/projects/:projectId" element={<ProjectDetail />} />
         <Route path="/course" element={<CoursePage />} />
         <Route path="/skills" element={<SkillPage />} />
+        <Route path="contact" element={<ContactPage />} />
       </Route>
     </Routes>
   )

@@ -184,5 +184,29 @@
                 "Jeu contre d'autres joueurs connectés"
             ]
         }
-    }
+    },
+    "contactPage": {
+        "title": "Contact",
+        "subtitle": "Vous avez une question ou une opportunité? N'hésitez pas à me contacter. Je suis toujours ouvert à de nouvelles collaborations et projets intéressants.",
+        "email": "Email",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "emailValue": "portfolio.lucas.mochon@gmail.com",
+        "githubValue": "Lucas-Mochon",
+        "linkedinValue": "lucas-mochon",
+        "sendMessage": "Envoyez-moi un message 💬",
+        "nameLabel": "Nom",
+        "namePlaceholder": "Votre nom",
+        "emailLabel": "Email",
+        "emailPlaceholder": "votre.email@example.com",
+        "subjectLabel": "Sujet",
+        "subjectPlaceholder": "Objet du message",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Votre message...",
+        "submitButton": "Envoyer le message",
+        "sendingButton": "Envoi en cours...",
+        "successMessage": "Message envoyé avec succès!",
+        "errorRequired": "Tous les champs sont obligatoires",
+        "errorSending": "Erreur lors de l'envoi du message. Veuillez réessayer."
+  }
 }
