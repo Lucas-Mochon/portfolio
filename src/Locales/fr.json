@@ -4,7 +4,7 @@
     "course": "Parcours",
     "skill": "Compétences",
     "contact": "Contact",
-    "hero_presentation": "Étudiant en <strong>3ème année de Bachelor</strong> en alternance à <strong>SupDeVinci (Rennes)</strong>.<br>Je contribue au sein de <strong> CNSI - S&D </strong> au développement d’un <em>Warehouse Management System</em> pour les entrepôts, ainsi qu’à une application distincte pour la gestion des commandes côté fournisseur.",
+    "hero_presentation": "Étudiant en <strong>3ème année de Bachelor</strong> en alternance à <strong>SupDeVinci (Rennes)</strong>.<br>Je contribue au sein de <strong> CNSI - S&D </strong> au développement d'un <em>Warehouse Management System</em> pour les entrepôts, ainsi qu'à une application distincte pour la gestion des commandes côté fournisseur.",
     "technologies": [
         "JavaScript",
         "TypeScript",
@@ -63,7 +63,7 @@
             "subsection1": {
             "title": "Bachelor Développement",
             "period": "2025 - 2026",
-            "description": "Études en alternance axées sur le développement frontend et backend, intégration web, et projets d’entreprise. <br/> Projet en cours : <ul><li>Cyna - e-commerce réalisé en React / Vite / Sequelize / Mysql / Node.js</li></ul>",
+            "description": "Études en alternance axées sur le développement frontend et backend, intégration web, et projets d'entreprise. <br/> Projet en cours : <ul><li>Cyna - e-commerce réalisé en React / Vite / Sequelize / Mysql / Node.js</li></ul>",
             "location": "SupDeVinci, Chantepie"
             }
         },
@@ -71,9 +71,51 @@
             "subsection1": {
             "title": "Alternance - CNSI / S&D",
             "period": "2025 - 2026",
-            "description": "Contribution au développement d’un <em>Warehouse Management System</em> pour les entrepôts et d’une application côté commandes fournisseur. <br/> Technologies : Laravel / Mysql",
+            "description": "Contribution au développement d'un <em>Warehouse Management System</em> pour les entrepôts et d'une application côté commandes fournisseur. <br/> Technologies : Laravel / Mysql",
             "location": "Plessé"
             }
+        }
+    },
+    "projectsList": {
+        "pokemon": {
+            "title": "Pokémon App",
+            "stack": "Swift · PokéAPI",
+            "description": "Pokédex iOS permettant de consulter, rechercher et explorer les détails de chaque Pokémon.",
+            "features": [
+                "Liste complète des Pokémon",
+                "Recherche par nom",
+                "Page de détail par Pokémon"
+            ]
+        },
+        "movie": {
+            "title": "Movie Streaming App",
+            "stack": "Swift · TMDB API · SQLite",
+            "description": "Application de streaming avec gestion des utilisateurs, favoris et base de données locale.",
+            "features": [
+                "Authentification utilisateur",
+                "Ajout de films en favoris",
+                "Base locale SQLite"
+            ]
+        },
+        "training": {
+            "title": "Training App",
+            "stack": "Flutter · Node.js · IA générative",
+            "description": "Application de suivi d'entraînements orientée musculation avec gestion des rôles et génération intelligente de programmes.",
+            "features": [
+                "Rôles admin / utilisateur",
+                "Suivi des entraînements & ressentis",
+                "Génération automatique de programmes via IA"
+            ]
+        },
+        "chess": {
+            "title": "Chess",
+            "stack": "Go · PostgreSQL · React · WebSockets",
+            "description": "Reproduction de Chess.com avec authentification, matchmaking en temps réel et parties multijoueurs en live.",
+            "features": [
+                "Connexion & inscription",
+                "Matchmaking temps réel",
+                "Jeu contre d'autres joueurs connectés"
+            ]
         }
     }
 }
