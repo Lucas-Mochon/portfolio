@@ -6,6 +6,7 @@
     "contact": "Contact",
     "hero_presentation": "Student in <strong>3rd year Bachelor's degree</strong> in work-study program at <strong>SupDeVinci (Rennes)</strong>.<br>I contribute within <strong>CNSI - S&D</strong> to the development of a <em>Warehouse Management System</em> for warehouses, as well as a separate application for supplier-side order management.",
     "hacker_rank_certification": "HackerRank Certification",
+    "viewDetails": "View Details",
     "technologies": [
         "JavaScript",
         "TypeScript",
@@ -182,6 +183,16 @@
                 "Login & registration",
                 "Real-time matchmaking",
                 "Play against other connected players"
+            ]
+        },
+        "ruleILiveBy": {
+            "title": "Rule I Live By (Until I Don't)",
+            "stack": "Next.js · Java Spring Boot · MongoDB",
+            "description": "Personal life rules management app with authentication, rule creation, and a dashboard to track progress.",
+            "features": [
+                "Login & registration",
+                "Create and manage life rules",
+                "Dashboard for tracking rule adherence"
             ]
         }
     },

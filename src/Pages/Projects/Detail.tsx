@@ -26,6 +26,18 @@ import movieLogin from "../../assets/pictures/projects/movieStreamingApp/login_p
 import movieDetail from "../../assets/pictures/projects/movieStreamingApp/movie_detail_page.png"
 import movieProfile from "../../assets/pictures/projects/movieStreamingApp/profile_page.png"
 import movieRegister from "../../assets/pictures/projects/movieStreamingApp/register_page.png"
+import rulesILiveByDashboard from "../../assets/pictures/projects/rulesILiveBy/dahsboard.png"
+import rulesILiveByRuleEventBroken from "../../assets/pictures/projects/rulesILiveBy/ruleEventBroken.png"
+import rulesILiveByCreateRule from "../../assets/pictures/projects/rulesILiveBy/createRule.png"
+import rulesILiveByDisconnectHome from "../../assets/pictures/projects/rulesILiveBy/disconnectedHome.png"
+import rulesILiveByLogin from "../../assets/pictures/projects/rulesILiveBy/login.png"
+import RulesILiveByProfil from "../../assets/pictures/projects/rulesILiveBy/profil.png"
+import RulesILiveByRegister from "../../assets/pictures/projects/rulesILiveBy/register.png"
+import RulesILiveByRuleDetail from "../../assets/pictures/projects/rulesILiveBy/ruleDetail.png"
+import RulesILiveByRuleEventCreate from "../../assets/pictures/projects/rulesILiveBy/ruleEventCreate.png"
+import RulesILiveByRuleEventDetail from "../../assets/pictures/projects/rulesILiveBy/ruleEventDetail.png"
+import RulesILiveByRuleEventRespected from "../../assets/pictures/projects/rulesILiveBy/ruleEventRespected.png"
+import RulesILiveByRuleList from "../../assets/pictures/projects/rulesILiveBy/ruleList.png"
 import type { Project } from "../../types/interfaces/Project"
 import type { ProjectData } from "../../types/interfaces/ProjectData"
 
@@ -40,6 +52,25 @@ const projectsData: Record<string, ProjectData> = {
       { src: chessLogin, alt: "Login Page" },
       { src: chessRegister, alt: "Register Page" },
       { src: chessStarted, alt: "Started Page" },
+    ],
+    isWeb: true,
+  },
+  ruleILiveBy: {
+    key: "ruleILiveBy",
+    type: "web",
+    images: [
+        { src: rulesILiveByDashboard, alt: "Dashboard" },
+        { src: RulesILiveByRuleList, alt: "Rule List" },
+        { src: RulesILiveByRuleDetail, alt: "Rule Detail" },
+        { src: rulesILiveByCreateRule, alt: "Create Rule" },
+        { src: RulesILiveByRuleEventCreate, alt: "Create Rule Event" },
+        { src: RulesILiveByRuleEventDetail, alt: "Rule Event Detail" },
+        { src: RulesILiveByRuleEventRespected, alt: "Rule Event Respected" },
+        { src: rulesILiveByRuleEventBroken, alt: "Rule Event Broken" },
+        { src: rulesILiveByLogin, alt: "Login Page" },
+        { src: RulesILiveByRegister, alt: "Register Page" },
+        { src: RulesILiveByProfil, alt: "Profile Page" },
+        { src: rulesILiveByDisconnectHome, alt: "Disconnected Home" },
     ],
     isWeb: true,
   },
@@ -222,7 +253,7 @@ export default function ProjectDetail() {
                         transition={{ duration: 0.5, delay: idx * 0.1 }}
                         whileHover={{ y: -5 }}
                     >
-                        <div className="relative w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] overflow-hidden">
+                        <div className="relative w-full aspect-[1950/1050] overflow-hidden">
                             <img
                                 src={image.src}
                                 alt={image.alt}

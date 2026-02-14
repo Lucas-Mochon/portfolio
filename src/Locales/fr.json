@@ -6,6 +6,7 @@
     "contact": "Contact",
     "hero_presentation": "Étudiant en <strong>3ème année de Bachelor</strong> en alternance à <strong>SupDeVinci (Rennes)</strong>.<br>Je contribue au sein de <strong> CNSI - S&D </strong> au développement d'un <em>Warehouse Management System</em> pour les entrepôts, ainsi qu'à une application distincte pour la gestion des commandes côté fournisseur.",
     "hacker_rank_certification": "HackerRank Certification",
+    "viewDetails": "Voir le détail",
     "technologies": [
         "JavaScript",
         "TypeScript",
@@ -182,6 +183,16 @@
                 "Connexion & inscription",
                 "Matchmaking temps réel",
                 "Jeu contre d'autres joueurs connectés"
+            ]
+        },
+        "ruleILiveBy": {
+            "title": "Rule I Live By (Until I Don't)",
+            "stack": "Next.js · Java Spring Boot · MongoDB",
+            "description": "Application de gestion de règles de vie personnelles avec authentification, création de règles, et tableau de bord pour suivre sa progression.",
+            "features": [
+                "Connexion & inscription",
+                "Création et gestion de règles de vie",
+                "Tableau de bord de suivi du respect des règles"
             ]
         }
     },
